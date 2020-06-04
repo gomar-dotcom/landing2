@@ -1,0 +1,42 @@
+.review-card {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	width: 25%;
+}
+
+#jen {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/alumni1.jpg);
+}
+
+#eric {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/alumni2.jpg);
+}
+
+#elizabeth {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/alumni3.jpg);
+}
+#john {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/alumni4.jpg);
+}
+
+.review-card .content {
+	display: none;
+	transition: 0.3s;
+	text-align: center;
+}
+
+.review-card p {
+	color: white;
+	line-height: 1.5;
+}
+
+.review-card:hover .content {
+	display: block;
+}
+
+
+.review-card h4 {
+	font-size: 20px;
+	color: white;
+}
